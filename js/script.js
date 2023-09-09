@@ -6,7 +6,7 @@
     backDealy:1000,
     loop:true
 })*/
-var typed = new Typed(".typing", {
+var typed = new typed(".typing", {
     Strings: ["Frontend Developer", "Web Developer", "YouTuber"],
     typeSpeed: 100,
     backSpeed: 100,

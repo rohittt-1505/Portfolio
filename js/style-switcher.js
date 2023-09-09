@@ -1,8 +1,10 @@
 /* ============================== toggle style switcher ============================== */
 const styleSwitcherToggle = document.querySelector(".style-switcher-toggler");
-styleSwitcherToggle.addEventListener("click", () => {
-    document.querySelector(".style-switcher").classList.toggle("open");
-})
+if (styleSwitcherToggle) {
+    styleSwitcherToggle.addEventListener("click", () => {
+        document.querySelector(".style-switcher").classList.toggle("open");
+    });
+}
 // hide style switcher on scroll
 window.addEventListener("scroll", () => {
     if (document.querySelector(".style-switcher").classList.contains("open")) {
@@ -17,7 +19,7 @@ function setActiveStyle(color) {
             style.removeAttribute("disabled");
         }
         else {
-            style.setAttribute(".alternate-style", "disabled");
+            style.setAttribute("disabled", "disabled");
         }
     })
 }
