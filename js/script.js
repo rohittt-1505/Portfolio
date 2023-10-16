@@ -1,18 +1,17 @@
 /* ============================== typing animation ============================== */
-/*var typed = new typed(".typing",{
+var typed = new Typed(".typing",{
     String:["Web Designer" , "web Developer" , "Graphic Designer" ],
     typeSpeed:100,
     BackSpeed:100,
-    backDealy:1000,
     loop:true
-})*/
-var typed = new typed(".typing", {
+})
+/*var typed = new Typed(".typing", {
     Strings: ["Frontend Developer", "Web Developer", "YouTuber"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
     loop: true
-})
+})*/
 
 /* ============================== Email ============================== */
 function sendEmail() {
