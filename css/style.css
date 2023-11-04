@@ -310,7 +310,6 @@ h3.my-profession {
     overflow: hidden;
     position: relative;
 }
-
 /*.my-profession::after
 {
     content: "Developer";
