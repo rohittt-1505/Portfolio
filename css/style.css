@@ -913,3 +913,32 @@ h3.my-profession {
 .right a {
     color: white;
 }
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: skyblue;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+
+.portfolio-img {
+    transition: transform 0.1s ease-in-out;
+}
+.portfolio-img:hover {
+    transform: scale(1.1);
+}
